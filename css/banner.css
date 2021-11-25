@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+#sideicon ul li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffc107;
+}
+
+
+#sideicon ul li :hover{
+    cursor: pointer;
+    background-color: #ffc107;
+    color: black;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+#sideicon ul {
+    margin-top: 200px;
+    margin-left: -44px;
+    background-color: #0e6869;
+    position: fixed;
+}
+
+#sideicon {
+    width: 60px;
+}
+
+#girlimage {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.girlimage1 {
+    width: 25vw;
+}
+
+#banner-row {
+    background-image: url(..//pics/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-col {
+    margin-top: 6%;
+    /* text-align: right; */
+    margin-right: 10%;
+}
+
+#Essay {
+    color: white;
+    text-align: right;
+}
+#Essay a{
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#review {
+    color: white;
+    justify-content: right;
+}
+
+#review i {
+    font-size: 30px;
+}
+
+.items {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.items:hover{
+    color: #f3c512;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#running {
+    background-color: #f7c940;
+    text-align: left;
+}
+#running:hover{
+    background-color:#0e6869 ;
+    color:#f7c940 ;
+    cursor: pointer;
+}
+
+#running h4 {
+    font-size: 17px;
+}
+
+#running i {
+    font-size: 25px;
+}
+
+#emailrow {
+    border: 1px solid #f7c940;
+}
+
+#realemailholder {
+    height: 6vh;
+    padding: 10px;
+}
+
+.formpageword {
+    width: 100%;
+}
+
+#button {
+    background-color: #f7c940;
+    font-weight: 700;
+}
+
+#emailrowside {
+    margin-left: 1px ;
+    padding-left: 0px;
+padding-right: 0px;
+}
+#realemail{
+    padding-left: 0px;
+padding-right: 0px;
+}
+#words1{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+ #pages1{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+@media only screen and (max-width:400px) {
+    #review i {
+        font-size: 30px;
+    }
+    #review {
+        justify-content: center;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #review {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:1480px) {
+    .sizeofh {
+        font-size: 12px;
+    }
+    #button {
+        font-size: 15px;
+    }
+    #ukimage{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+    #Essay h1 {
+        font-size: 20px;
+    }
+    .formin-input-placeholder {
+        font-size: 10px;
+    }
+    .dateflexstart{
+        display: flex;
+    }
+
+    #writemyid{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    #Essay h1 {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:774px){
+    #assignmentdate{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:500px){
+    #writemy p{
+        font-size: 30px;
+    }
+    #yourrequest{
+        font-size: 1em;
+    }
+    #reasonable p{
+        font-size: 30px;
+        line-height: 1.5em;
+    }
+}
+@media only screen and (max-width:1030px){
+    #realemailholder{
+        height: 50px;
+    }
+}
+
+#ukimage{
+    width: 2vw;
+
+}
+/* .india{
+    margin-left: -50px;
+} */
+/* Marque Under Paragraph */
+
+#writemy {
+    font-size: 40px;
+    color: #0e6869;
+    border-top: 2px  solid #0e6869 ;
+    border-bottom: 3px solid #0e6869 ;
+}
+#yourrequestid{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#writemycol{
+    padding-right: 0px;
+    padding-right: 0px;
+}
+#newcontainer{
+    width: 100%;
+}
+#yourrequest{
+    border: 5px solid #0e6869;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.9em;
+    color:#0e6869 ;
+    position: relative;
+    margin: auto;
+    
+}
+#yourrequest p::before{
+    background: url(..//pics/qoute-top.jpg);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: -40px;
+    left: 30px;
+
+}
+#yourrequest p::after{
+    background: url(..//pics/qoute-botm.jpg);
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: -65px;
+    right: 30px;
+    
+}
+#reasonable{
+    padding: 10px;
+    font-size: 40px;
+    color: #0e6869;
+    text-align: center;
+    line-height: 1.9em;
+    margin-bottom: 30px;
+    
+}
+#thecolleges{
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Besley', serif;
+}
+.order-bg-green {
+    position: absolute;
+    background: #0e6869;
+    top: -5%;
+    bottom: 0;
+    left: 25%;
+    right: 20%;
+    z-index: -1;
+    height: 110%;
+    width: 60%;
+}
+#expertorder{
+    position: relative;
+}
+#expertid{
+    max-width: 100%;
+    height: auto;
+    margin-left: 50%;
+}
+#expertcol7{
+    margin-top: 3rem!important;
+
+}
+#formexpert{
+    border: 3px solid #faca56;
+    width: 80%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+#formexpert input{
+    color: #0e6869;
+    font-size: 1em;
+    outline: 0;
+}
+#formexpert h2{
+    color: #0e6869;
+}
+#formexpert span{
+    margin: 0;
+    padding: 0;
+}
+.order-form{
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 20%;
+    display: inline-block;
+}
+.order-form label{
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.order-form input{
+    border-bottom: 2px solid #0e6869;
+    border-left: none;
+    border-top: 0;
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+.order-form button{
+    float: left;
+    width: 30%;
+    margin-top: 1.5%;
+    background: #faca56;
+    border: 1px solid #faca56;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #003132;
+    font-weight: 700;
+}
+#expertrowb{
+    position: relative;
+    background-color: #faca56;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 3%;
+}
+.whatsappicon2 i{
+    
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin-right: 10%;
+    background-size: contain;
+    color: black;
+    margin: 10px auto 0;
+}
+
+
+.whatsappicon2:hover{
+    
+    background-color: #0e6869;
+    color: #ffc107;
+    cursor: pointer;
+}
+#kuchbhi{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#kuchbhi p{
+font-size: 1em;
+}
+.whatsappicon2{
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}

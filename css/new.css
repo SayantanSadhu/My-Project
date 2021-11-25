@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#lorem{
+    background: url(..//pics/bg.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-position: center;
+    background-size: cover;
+    
+}
+.number-image{
+    background: #eee;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 47px;
+    font-size: 3.5em;
+    padding: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    line-height: 25px;
+    color: #0e6869;
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+.paragraph1{
+    color: white;
+    line-height: 2rem;
+    font-size: 1.2em;
+}
+@media only screen and (max-width:768px){
+    .colmid{
+        margin-left: 10%;
+    }
+}
+
+#thirdgirlimage img{
+    margin-left: 50%;
+}
+
+
+#thirdgirlrow ul{
+    border: 5px solid #faca56;
+    
+
+
+}
+#thirdgirlrow ul li h2{
+    color: #0e6869;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#thirdgirlrow ul li p{
+    line-height: 1.8rem;
+    font-size: 1.1em;
+    padding: 15px;
+}
+@media only screen and (max-width:1450px){
+    #thirdgirlimage img{
+        margin-left: -20px;
+    }
+    #howdo{
+        background-color:#faca56;
+        width: 10%;
+        height: 5%;
+        margin-left: 33%;
+        margin-top: 15%;
+        position: absolute;
+        z-index: 2;
+    
+    }
+}
+@media only screen and (max-width:768px){
+    #thirdgirlimage {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #howdoimage{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #cycleimage2 img{
+        width: 100%;
+    }
+    #formexpert2{
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width:880px){
+    #thirdgirlimage img{
+        margin-left: -40px;
+        
+    }
+    #howdoimage{
+        margin-left: 0px;
+    }
+
+}
+@media only screen and (min-width:850px){
+    #howdoimage{
+        margin-left: 25%;
+        z-index: 1;
+    }
+   
+}
+@media only screen and (max-width:400px){
+    #howdoimage img{
+        width: 100%;
+    }
+    .paragraphhowdo p{
+        width: 100%;
+    }
+}
+#howdo{
+    background-color:#faca56;
+    width: 250px;
+    height: 250px;
+    margin-left: 33%;
+    margin-top: 15%;
+    position: absolute;
+    z-index: 2;
+
+}
+#howdoimage{
+    
+    z-index: 1;
+}
+#asset-main-row{
+    background-color: #0e6869;
+}
+#howdo p{
+    font-size: 33px;
+    text-align: center;
+}
+
+.howdoparagraph{
+    margin-top: 40%;
+}
+.paragraphhowdo{
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 10%;
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+
+
+
+#formexpert2{
+    border: 3px solid #0e6869;
+    text-align: center;
+}
+
+#cycleimage2{
+    padding-left: 5%;
+}
+
+
+
+
+
+#fullgroundteal{
+    background-color: #0e6869;
+
+}
+
+.this-is-the-first{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    line-height: 1.9rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+   
+    transition: 0.2s;
+   
+}
+.this-is-the-first:hover{
+    background-color:#faca56 ;
+    box-shadow: 5px 5px 1px rgb(65, 64, 64);
+}
+
+#whatsour{
+    color: #0e6869;
+
+}
+#whatsour p{
+    color: black;
+}
+
+
+#myCarusol{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: 2px solid #0e6869;
+    box-shadow: 5px 5px 5px rgb(65, 64, 64);
+
+}
+.carousel-indicators{
+    background-color: #0e6869;
+    box-shadow: 5px 5px 5px green;
+
+}
+.carousel-control-prev-icon{
+    background: black;
+    box-shadow: 5px 5px 5px green;
+}
+.carousel-control-next-icon{
+    background: black;
+    box-shadow: 5px 5px 5px green;
+}
+.carousel-item{
+    color: green;
+}
+#faq{
+    color: #0e6869;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#howcanu h2{
+    border-top-style: double;
+    border-bottom-style: double;
+    border-top: 3px solid #f3c512;
+    border-bottom: 3px solid #f3c512;
+    border-left: none;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    color: white;
+}
+#howcanu{
+    
+    background-color:#0e6869 ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: rgba(7, 7, 7, 0.993) 0px 5px 15px;
+    border-radius: 7px;
+}
+.q-size {
+    margin: 0 auto;
+    background: #f3c512;
+    width: 75px;
+    height: 75px;
+    font-size: 3.25em;
+    border-radius: 51px;
+    line-height: 1;
+    padding: 10px 0;
+    color: #13504f;
+    margin-top: -55px;
+}
+#howcanu p{
+    font-size: 20px;
+}
+
+
+
+
+
+#howcanu2 h2{
+    border-top-style: double;
+    border-bottom-style: double;
+    border-top: 3px solid #0e6869  ;
+    border-bottom: 3px solid #0e6869 ;
+    border-left: none;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    color: #0e6869 ;
+}
+
+#howcanu2{
+    
+    background-color:#f3c512;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: rgba(7, 7, 7, 0.993) 0px 5px 15px;
+    border-radius: 7px;
+}
+.q-size2 {
+    margin: 0 auto;
+    background: #0e6869  ;
+    width: 75px;
+    height: 75px;
+    font-size: 3.25em;
+    border-radius: 51px;
+    line-height: 1;
+    padding: 10px 0;
+    color: #f3c512;
+    margin-top: -55px;
+}
+#howcanu2 p{
+    font-size: 20px;
+    color: #0e6869 ;
+    
+    
+}
+
+
+
+@media only screen and (max-width:1300px){
+    #howcanu2 h2{
+        padding-bottom: 50px;
+    }
+    #howcanu h2{
+        padding-bottom: 50px;
+    }
+}
+
+#porder{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3c512;
+    color: black;
+}
+#porder a{
+    background: #13504f;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+#footer{
+    background-color:#13504f ;
+}
+#footer li{
+    list-style-type: none;
+    padding: 5px;
+    
+}
+
+.quick{
+    color:#f3c512 ;
+    font-size: 17px;
+}
+
+.normal{
+    color: white;
+}
+.ulbolte li{
+    cursor: pointer;
+
+}
+
+@media only screen and (min-width:1300px){
+    .ulbolte{
+        padding-left: 150px;
+    }
+   
+}
+
+
+#lastlogo{
+    background-color: #13504f ;
+}
+#img1{
+    width: 300px;
+}
+
+
+
+
+#lastrow{
+    background-color:#13504f  ;
+}
+
+
+
+
+#lastwork ul li{
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+    margin-right: 17px;
+}
